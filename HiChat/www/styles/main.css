@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.mybanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.banner{
+    float: left;
+    height: 70px;
+    padding: 20px 15px;
+    line-height: 20px;
+}
+.version {
+    font-size: 0.5rem;
+    position: relative;
+    /*top: -0.3rem;*/
+}
+#historyMsg {
+    padding-bottom:185px; 
+}
+#loginWrapper {
+        position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1500;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 900px;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+
+.nicknameInput{
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.status{
+    position: fixed;
+    background-color: rgb(225,225,225,.6);
+    width: 20vh;
+    height: 20vh;
+}
+.mseeagepop{
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: 30vh;
+}
+.mymseeagepop{
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: auto;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: flex-end;
+}
+/*.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+#loginWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding-top: 200px;
+}
+#nickWrapper {
+    display: none;
+}
+.banner {
+    height: 80px;
+    width: 100%;
+}
+.banner p {
+    float: left;
+    display: inline-block;
+}
+.controls {
+    height: 100px;
+    margin: 5px 0px;
+    position: relative;
+}
+#historyMsg {
+    height: 400px;
+    background-color: #fff;
+    overflow: auto;
+    padding: 2px;
+}
+#historyMsg img {
+    max-width: 99%;
+}
+.timespan {
+    color: #ddd;
+}
+.items {
+    height: 30px;
+}
+#colorStyle {
+    width: 50px;
+    border: none;
+    padding: 0;
+}
+custom the file input
+
+.imageLable {
+    position: relative;
+}
+#sendImage {
+    position: absolute;
+    width: 52px;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+}*/
+/*end custom file input
+
+#messageInput {
+    width: 440px;
+    max-width: 440px;
+    height: 90px;
+    max-height: 90px;
+    float:left;
+}
+#sendBtn {
+    width: 50px;
+    height: 96px;
+    float: right;
+}
+#emojiWrapper {
+    display: none;
+    width: 500px;
+    bottom: 105px;
+    position: absolute;
+    background-color: #aaa;
+    box-shadow: 0 0 10px #555;
+}
+#emojiWrapper img {
+    margin: 2px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+}
+#emojiWrapper img:hover {
+    background-color: blue;
+}
+.emoji{
+    display: inline;
+}
+footer {
+    text-align: center;
+}
+*/
