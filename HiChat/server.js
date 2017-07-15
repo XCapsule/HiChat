@@ -5,7 +5,7 @@ var express = require('express'),
     users=[]
 // 绑定到服务器
 app.use('/',express.static(__dirname+'/www'));
-server.listen(8996);
+server.listen(80);
 
 // socket部分
 io.on('connection',function(socket){

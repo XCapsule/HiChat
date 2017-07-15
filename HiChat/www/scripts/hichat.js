@@ -20,10 +20,11 @@ var thisTime=new Date().getTime();
 var storeAge=thisTime-lastTimeLogin;//获取当前储存的已存活时间
 var localname=localStorage.localname;
 // 1为可以登录
-if(localStorage.statuscode=='NaN'){localStorage.statuscode=0}
+if(isNaN(localStorage.statuscode)){localStorage.statuscode=0;alert('NaN')}
 localStorage.statuscode-=(-1);
 function login(that){
             var nickName=localname;
+            localStorage.lastTimeLogin=thisTime;
             if(nickName.trim().length!=0){
                 that.socket.emit('login',nickName);
             }else{
@@ -61,8 +62,7 @@ HiChat.prototype={
             if(localname&&(storeAge<86400000)){
                 // 通过localstorage登陆
                 if(localStorage.statuscode==1){
-                    localStorage.lastTimeLogin=thisTime;
-                login(that)}
+                    login(that)}
                 else
                     document.getElementById('info').textContent = '您已打开多个窗口！';
                     
